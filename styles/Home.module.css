@@ -1,0 +1,15 @@
+.landingPic {
+  width: 95%;
+  background: transparent;
+}
+
+.landingContainer {
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.postContainer {
+  margin: 30px;
+  width: 100%;
+}

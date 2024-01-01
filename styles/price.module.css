@@ -1,0 +1,84 @@
+.container {
+  background: rgb(0, 51, 102);
+  background: linear-gradient(
+    0deg,
+    rgba(0, 51, 102, 1) 0%,
+    rgba(0, 51, 51, 1) 100%
+  );
+  width: 100%;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  padding: 15px;
+  border-radius: 20px;
+  box-shadow: var(--box-shadow);
+}
+
+.upLogo {
+  width: 50%;
+}
+
+.options {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  height: 280px;
+  padding: 15px 0;
+  margin-bottom: 20px;
+}
+
+.optionText {
+  color: var(--white-color);
+  font-size: 16px;
+}
+
+.titr {
+  color: #d0a449;
+  font-size: 24px;
+}
+
+.priceLabel {
+  font-weight: 700;
+  color: #d0a449;
+  font-size: 28px;
+  margin: auto 0;
+}
+
+.englishLogo {
+  width: 80%;
+  display: flex;
+  justify-content: center;
+}
+
+@media screen and (max-width: 1500px) {
+  .optionText {
+    font-size: 14px;
+  }
+
+  .titr {
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 580px) {
+  .container {
+    width: 70%;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .container {
+    width: 85%;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .titr {
+    font-size: 14px;
+  }
+}
